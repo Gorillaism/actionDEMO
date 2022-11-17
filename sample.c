@@ -13,6 +13,8 @@ int main(int argc, char **argv)
 
     printf("\n Enter the password : \n");
     gets(buff);
+    
+    printf("\nI understand I will never write a program like this\n");
 
     if(strcmp(buff, "thesecretpassword"))
     {
